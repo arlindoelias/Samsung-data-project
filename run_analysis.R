@@ -1,4 +1,3 @@
-
 ## Getting and cleaning Data: Samsung Data Project
 ## Version FINAL: 26/04/2014
 ## Analyst: Arlindo Elias
@@ -179,7 +178,7 @@ write.table(tidyMelt2, file="tidyData2.txt") # Write the second file for submiss
 
 
 ## 5.3: Testing: Loading and viewing the final tidy data set
-# The tidyData2.txt file must be in the working directory
+# The tidyDataFinal.txt file must be in the working directory
 data <- read.table("tidyDataFinal.txt", header=T)
 View(data)
 dim(data)
